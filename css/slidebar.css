@@ -1,0 +1,62 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+h2 {
+	position: relative;
+	width: 130px;
+	margin: 0px auto;
+}
+#slidebar {
+	position: relative;
+	width: 500px;
+	height: 500px;
+	margin: 0 auto;
+	overflow: hidden;
+	border: 2px dashed #000;
+	z-index:3;
+}
+ul {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 2000px;
+	font-size: 0;
+}
+#slidebar ul li {
+	display: inline-block;
+	width: 500px;
+	text-align: center;
+	overflow: hidden;
+	text-decoration: none;
+	list-style: none;
+	vertical-align: middle;
+}
+.button1,.button2{
+	display:block;
+	position:absolute;
+	height:50px;
+	line-height: 50px;
+	width:50px;
+    top:50%;
+	margin-top:-25px;
+	background-color:#D8CECE;
+	z-index:10;
+	cursor:pointer;
+	font-size:20px;
+	text-align: center;
+	opacity: 0.5;
+}
+.button1{
+	left:10px;
+}
+.button2{
+	right:10px;
+}
+
+ul li img {
+	width: 500px;
+}
+@media screen and(max-width:500px){
+	body{background:#ccc;}
+}
